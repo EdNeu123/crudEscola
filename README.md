@@ -9,15 +9,15 @@ Sistema web para gerenciamento de entidades escolares com operações CRUD compl
 ## 📸 Screenshots
 
 ### 👨🏫 Cadastro de Professores
-[![Cadastro de Professores](https://i.imgur.com/9TY0Ew9h.jpg)](https://imgur.com/a/9TY0Ew9)
+![image](https://github.com/user-attachments/assets/0d9bad47-8b2e-49ce-9b79-805f68d18adb)
 > Interface para registro e gestão de professores
 
 ### 📚 Cadastro de Matérias
-[![Cadastro de Matérias](https://i.imgur.com/AqZjT5Ch.jpg)](https://imgur.com/a/AqZjT5C)
+![image](https://github.com/user-attachments/assets/7f934e8e-a3db-487b-af0e-8d79f9565521)
 > Tela de associação de matérias com professores
 
 ### 👩🎓 Cadastro de Alunos
-[![Cadastro de Alunos](https://i.imgur.com/90keMQah.jpg)](https://imgur.com/a/90keMQa)
+![image](https://github.com/user-attachments/assets/efd13f28-5e64-41c2-b368-dc1ba0d9ce30)
 > Área para matrícula de alunos em matérias
 
 ## ✨ Funcionalidades Principais

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Matéria</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1>Cadastrar Matéria</h1>
+  <a href="../index.html"><button>Voltar ao Início</button></a>
+  
+  <form id="materia-form">
+    <input type="hidden" id="materia-index">
+    <input type="text" id="materia-nome" placeholder="Nome da Matéria">
+    <!-- Select com os professores cadastrados -->
+    <select id="materia-professor">
+      <option value="">Selecione um Professor</option>
+    </select>
+    <button type="button" onclick="addOrUpdateMateria()">Adicionar/Atualizar</button>
+    <button type="button" onclick="clearMateriaForm()">Limpar</button>
+  </form>
+  
+  <ul id="lista-materias"></ul>
+  
+  <script src="../js/scripts.js"></script>
+  <script>
+    // Atualiza as opções do select e renderiza a lista de matérias
+    updateMateriaProfessorOptions();
+    renderMaterias();
+  </script>
+</body>
+</html>

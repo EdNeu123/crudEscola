@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Professor</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1>Cadastrar Professor</h1>
+  <a href="../index.html"><button>Voltar ao Início</button></a>
+  
+  <form id="professor-form">
+    <!-- Campo oculto para identificar o índice (para edição) -->
+    <input type="hidden" id="professor-index">
+    <input type="text" id="professor-nome" placeholder="Nome do Professor">
+    <input type="text" id="professor-materia" placeholder="Matéria que ministra">
+    <button type="button" onclick="addOrUpdateProfessor()">Adicionar/Atualizar</button>
+    <button type="button" onclick="clearProfessorForm()">Limpar</button>
+  </form>
+  
+  <ul id="lista-professores"></ul>
+  
+  <script src="../js/scripts.js"></script>
+  <script>
+    // Inicializa a lista de professores
+    renderProfessors();
+  </script>
+</body>
+</html>

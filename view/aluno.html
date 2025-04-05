@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Aluno</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1>Cadastrar Aluno</h1>
+  <a href="../index.html"><button>Voltar ao Início</button></a>
+  
+  <form id="aluno-form">
+    <input type="hidden" id="aluno-index">
+    <input type="text" id="aluno-nome" placeholder="Nome do Aluno">
+    <!-- Select com as matérias cadastradas -->
+    <select id="aluno-materia">
+      <option value="">Selecione uma Matéria</option>
+    </select>
+    <button type="button" onclick="addOrUpdateAluno()">Adicionar/Atualizar</button>
+    <button type="button" onclick="clearAlunoForm()">Limpar</button>
+  </form>
+  
+  <ul id="lista-alunos"></ul>
+  
+  <script src="../js/scripts.js"></script>
+  <script>
+    // Atualiza as opções do select e renderiza a lista de alunos
+    updateAlunoMateriaOptions();
+    renderAlunos();
+  </script>
+</body>
+</html>

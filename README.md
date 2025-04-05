@@ -10,7 +10,7 @@ Sistema web para gerenciamento de entidades escolares com operações CRUD compl
 
 ## ✨ Funcionalidades Principais
 
-### 👨🏫 **Professores**
+### 🏫 **Professores**
 - Cadastro com nome e disciplina ministrada
 - Edição e exclusão de registros
 - Vinculação às matérias
@@ -20,7 +20,7 @@ Sistema web para gerenciamento de entidades escolares com operações CRUD compl
 - Listagem inteligente de professores disponíveis
 - Gestão completa do catálogo disciplinar
 
-### 👩🎓 **Alunos**
+### 🎓 **Alunos**
 - Matrícula em matérias existentes
 - Visualização de relações aluno-matéria-professor
 - Histórico acadêmico simplificado
@@ -34,8 +34,3 @@ Sistema web para gerenciamento de entidades escolares com operações CRUD compl
   - `localStorage` para armazenamento local
 - **Padrões**:
   - CRUD Completo
-
-## 🚀 Como Executar
-1. Clone o repositório:
-```bash
-git clone 

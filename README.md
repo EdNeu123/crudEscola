@@ -6,7 +6,19 @@
 
 Sistema web para gerenciamento de entidades escolares com operações CRUD completo, desenvolvido com JavaScript vanilla e armazenamento local.
 
-![Captura de Tela do Sistema](screenshot.png) <!-- (Adicione uma screenshot posteriormente) -->
+## 📸 Screenshots
+
+### 👨🏫 Cadastro de Professores
+[![Cadastro de Professores](https://i.imgur.com/9TY0Ew9h.jpg)](https://imgur.com/a/9TY0Ew9)
+> Interface para registro e gestão de professores
+
+### 📚 Cadastro de Matérias
+[![Cadastro de Matérias](https://i.imgur.com/AqZjT5Ch.jpg)](https://imgur.com/a/AqZjT5C)
+> Tela de associação de matérias com professores
+
+### 👩🎓 Cadastro de Alunos
+[![Cadastro de Alunos](https://i.imgur.com/90keMQah.jpg)](https://imgur.com/a/90keMQa)
+> Área para matrícula de alunos em matérias
 
 ## ✨ Funcionalidades Principais
 
